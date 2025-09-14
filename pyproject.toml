@@ -1,0 +1,19 @@
+[project]
+name = "scraping-voo"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "papolonio",email = "p.apolonio20@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "redis (>=6.4.0,<7.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "pymongo (>=4.15.0,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

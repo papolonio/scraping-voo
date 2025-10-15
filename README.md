@@ -50,15 +50,16 @@ src/
 ├── crawler/
 │   ├── abstract_crawler.py     # Classe base com o fluxo genérico (Template Method)
 │   ├── old_abstract_crawler.py # Versão anterior para referência
-│   └── init.py
+│   └── __init__.py
 ├── tools/
 │   ├── browser_provider.py     # Configura e fornece a instância do navegador Selenium
 │   ├── mongodb.py              # Gerencia a conexão e persistência no MongoDB
 │   ├── redis.py                # Responsável pela leitura dos steps do Redis
 │   └── steps/
 │       └── actions.py          # Módulo com as ações dinâmicas (click, input, wait, etc.)
-├── main.py                     # Ponto de entrada (entrypoint) da aplicação
+├── __main__.py                 # Ponto de entrada (entrypoint) da aplicação
 └── generic_crawler.py          # Implementação concreta que orquestra o processo
+
 
 ## Diagrama de Fluxo de Execução
 

@@ -1,17 +1,10 @@
-# Scraping-VOO
-
-<p align="center">
-  <img alt="Python Version" src="https://img.shields.io/badge/python-3.12-blue.svg">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-green.svg">
-  <img alt="Status" src="https://img.shields.io/badge/status-ativo-brightgreen.svg">
-</p>
-
 
 ## Descrição
 
-**Scraping-VOO** é um crawler modular e configurável desenvolvido em Python e Selenium, projetado para automatizar a coleta de dados de voos em sites de companhias aéreas (como Latam, Azul, Gol).
+**Scraping-VOO** é um projeto desenvolvido com o objetivo de criar um crawler modular e configurável em Python + Selenium, projetado para automatizar a coleta de dados de companhias aéreas (como Latam, Azul e Gol).
 
-A arquitetura do projeto utiliza um fluxo de automação orientado a dados (*Data-Driven*), onde os passos da raspagem (cliques, preenchimento de formulários, esperas) são definidos em formato JSON e armazenados no **Redis**. Isso permite modificar ou adicionar novos fluxos de coleta sem alterar o código principal do crawler. Os dados coletados são persistidos em um banco de dados **MongoDB**, e todo o ambiente (aplicação, banco e cache) é orquestrado de forma simples e eficiente com **Docker Compose**.
+A arquitetura foi construída com foco em flexibilidade, escalabilidade e manutenção, utilizando Redis para armazenar fluxos dinâmicos de execução (Data-Driven Automation) e MongoDB para persistência dos dados coletados.
+Todo o ambiente é orquestrado via Docker Compose, garantindo reprodutibilidade e fácil implantação.
 
 ## Índice
 

@@ -1,10 +1,11 @@
 # Scraping-VOO
 
 <p align="center">
-  <img alt="Python Version" src="[https://img.shields.io/badge/python-3.12-blue.svg](https://img.shields.io/badge/python-3.12-blue.svg)">
-  <img alt="License" src="[https://img.shields.io/badge/license-MIT-green.svg](https://img.shields.io/badge/license-MIT-green.svg)">
-  <img alt="Status" src="[https://img.shields.io/badge/status-ativo-brightgreen.svg](https://img.shields.io/badge/status-ativo-brightgreen.svg)">
+  <img alt="Python Version" src="https://img.shields.io/badge/python-3.12-blue.svg">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-green.svg">
+  <img alt="Status" src="https://img.shields.io/badge/status-ativo-brightgreen.svg">
 </p>
+
 
 ## Descrição
 
@@ -45,7 +46,7 @@ A arquitetura do projeto utiliza um fluxo de automação orientado a dados (*Dat
 ## Arquitetura do Projeto
 
 A estrutura de diretórios foi organizada para separar responsabilidades e facilitar a manutenção:
-
+```
 src/
 ├── crawler/
 │   ├── abstract_crawler.py     # Classe base com o fluxo genérico (Template Method)
@@ -59,7 +60,7 @@ src/
 │       └── actions.py          # Módulo com as ações dinâmicas (click, input, wait, etc.)
 ├── __main__.py                 # Ponto de entrada (entrypoint) da aplicação
 └── generic_crawler.py          # Implementação concreta que orquestra o processo
-
+```
 
 ## Diagrama de Fluxo de Execução
 

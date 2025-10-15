@@ -12,11 +12,6 @@ Todo o ambiente é orquestrado via Docker Compose, garantindo reprodutibilidade 
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Arquitetura do Projeto](#arquitetura-do-projeto)
 - [Diagrama de Fluxo de Execução](#diagrama-de-fluxo-de-execução)
-- [Pré-requisitos](#pré-requisitos)
-- [Como Executar Localmente](#como-executar-localmente)
-- [Conceitos de Arquitetura Aplicados](#conceitos-de-arquitetura-aplicados)
-- [Autor](#autor)
-- [Licença](#licença)
 
 ## Principais Características
 
